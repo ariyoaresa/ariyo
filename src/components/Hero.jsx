@@ -24,9 +24,6 @@ const Hero = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="flex flex-col md:flex-row gap-8 items-start max-w-2xl"
           >
-            <div className="px-4 py-1 border rounded-full text-xs font-semibold uppercase tracking-wider border-gray-300">
-              Based in Nigeria
-            </div>
             <p className="text-xl text-gray-600 leading-relaxed font-light max-w-md">
               Ariyo Aresa👋. A <strong>Web Developer</strong> Creating Intuitive Digital Experiences.
               Transforming complex problems into simple, beautiful, and accessible web pages.

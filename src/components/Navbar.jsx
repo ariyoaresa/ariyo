@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -16,13 +17,14 @@ const Navbar = () => {
     { name: "Services", href: "#services" },
     { name: "Work", href: "#projects" },
     { name: "About", href: "#about" },
+    { name: "Blog", href: "/blog", isRoute: true },
   ];
 
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? "bg-white/90 backdrop-blur-md shadow-sm py-4"
-          : "bg-transparent py-6"
+        ? "bg-white/90 backdrop-blur-md shadow-sm py-4"
+        : "bg-transparent py-6"
         }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">

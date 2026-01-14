@@ -38,12 +38,12 @@ const About = () => {
 
                     <div className="grid grid-cols-1 gap-12">
                         <div className="border-t border-gray-200 pt-6">
-                            <h3 className="text-6xl font-serif font-bold text-black mb-2">+320</h3>
+                            <h3 className="text-6xl font-serif font-bold text-black mb-2">60+</h3>
                             <p className="text-gray-500">Projects successfully completed for clients worldwide.</p>
                         </div>
                         <div className="border-t border-gray-200 pt-6">
-                            <h3 className="text-6xl font-serif font-bold text-black mb-2">+280</h3>
-                            <p className="text-gray-500">Happy clients ranging from startups to Fortune 500s.</p>
+                            <h3 className="text-6xl font-serif font-bold text-black mb-2">40+</h3>
+                            <p className="text-gray-500">Happy clients ranging</p>
                         </div>
                     </div>
                 </div>
