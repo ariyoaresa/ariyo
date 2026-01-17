@@ -22,7 +22,7 @@ export const useCachedArticles = () => {
                 return JSON.parse(cached);
             }
         } catch (e) {
-            alert('Failed to read cache:', e);
+            console.warn('Failed to read cache:', e);
         }
         return null;
     }, []);
@@ -35,7 +35,7 @@ export const useCachedArticles = () => {
                 timestamp: Date.now()
             }));
         } catch (e) {
-            alert('Failed to write cache:', e);
+            console.warn('Failed to write cache:', e);
         }
     }, []);
 
@@ -44,7 +44,7 @@ export const useCachedArticles = () => {
         try {
             const response = await fetch(API_URL);
             if (!response.ok) {
-                alert('Failed to fetch articles');
+                throw new Error('Failed to fetch articles');
             }
             const data = await response.json();
 
