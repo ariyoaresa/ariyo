@@ -39,6 +39,7 @@ const Blog = () => {
                     )}
 
                     {!loading && !error && articles.length === 0 && (
+                        {alert(articles)}
                         <div className="text-center py-20">
                             <p className="text-gray-500 text-lg">No articles found.</p>
                         </div>
