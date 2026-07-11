@@ -41,7 +41,7 @@ const Hero = () => {
           >
             <div className="aspect-3/4 rounded-sm overflow-hidden shadow-2xl">
               <img
-                src="/ariyo.png"
+                src="https://res.cloudinary.com/dzkdfyaaw/image/upload/v1773429112/awalalasa_uploads/zideimjymc7v7vjs0csp.jpg"
                 alt="Ariyo Aresa"
                 className="w-full h-full object-cover"
               />
