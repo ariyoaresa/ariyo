@@ -3,9 +3,9 @@ import { motion } from "motion/react";
 
 const projects = [
     {
-        title: "AI Powered Web App",
-        category: "Full Stack Development",
-        url: "https://wishcad.vercel.app"
+        title: "AI Powered Workspace",
+        category: "Full Stack & AI Development",
+        url: "https://beta.vision-board.tech"
     },
     {
         title: "Educational Platform",
@@ -13,9 +13,9 @@ const projects = [
         url: "https://nuesapedia.vercel.app"
     },
     {
-        title: "Web3 Landing Page",
-        category: "frontend development",
-        url: "https://basecrow.com"
+        title: "Cultural & Language Platform",
+        category: "Full Stack Development",
+        url: "https://awalalasa.app"
     },
     {
         title: "NGO Website",
@@ -50,18 +50,22 @@ const Projects = () => {
                             className="group cursor-pointer block"
                         >
                             <div className="aspect-3/2 rounded-2xl overflow-hidden relative bg-gray-900">
-                                <iframe
-                                    src={project.url}
-                                    className="absolute inset-0 w-[400%] h-[400%] scale-[0.25] origin-top-left border-0 pointer-events-none hover:blur-sm opacity-60 transition-opacity duration-500 group-hover:opacity-90"
-                                    title={project.title}
+                                <img
+                                    src={project.image || `https://api.microlink.io/?url=${encodeURIComponent(project.url)}&screenshot=true&meta=false&embed=screenshot.url`}
+                                    alt={project.title}
                                     loading="lazy"
-                                    scrolling="no"
+                                    className="absolute inset-0 w-full h-full object-cover object-top opacity-60 transition-all duration-500 group-hover:scale-105 group-hover:opacity-85"
                                 />
 
                                 {/* Overlay Content */}
-                                <div className="absolute inset-0 z-10 flex flex-col justify-end p-8 bg-linear-to-t from-black/80 to-transparent">
+                                <div className="absolute inset-0 z-10 flex flex-col justify-end p-8 bg-linear-to-t from-black/85 via-black/40 to-transparent">
                                     <span className="text-gray-300 text-xs font-semibold uppercase tracking-wider mb-2">{project.category}</span>
-                                    <h3 className="text-3xl font-bold font-serif text-white group-hover:underline decoration-1 underline-offset-4">{project.title}</h3>
+                                    <div className="flex items-center justify-between">
+                                        <h3 className="text-3xl font-bold font-serif text-white group-hover:underline decoration-1 underline-offset-4">{project.title}</h3>
+                                        <span className="text-white/70 group-hover:text-white transition-colors transform group-hover:translate-x-1 group-hover:-translate-y-1 duration-300">
+                                            ↗
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </motion.a>
