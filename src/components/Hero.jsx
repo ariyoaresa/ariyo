@@ -14,7 +14,7 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-7xl md:text-[8rem] leading-[0.9] text-black mb-12"
           >
-            Website <br />
+            Full Stack <br />
             <span className="font-light italic">Developer</span>
           </motion.h1>
 
@@ -25,8 +25,7 @@ const Hero = () => {
             className="flex flex-col md:flex-row gap-8 items-start max-w-2xl"
           >
             <p className="text-xl text-gray-600 leading-relaxed font-light max-w-md">
-              Ariyo Aresa👋. A <strong>Web Developer</strong> Creating Intuitive Digital Experiences.
-              Transforming complex problems into simple, beautiful, and accessible web pages.
+              Ariyo Aresa👋. A <strong>Full Stack Developer</strong> building scalable web applications, robust APIs, and intuitive digital experiences from database to UI.
             </p>
           </motion.div>
         </div>
@@ -47,8 +46,8 @@ const Hero = () => {
               />
             </div>
             {/* Floating Badge */}
-            <div className="absolute -bottom-2 -left-6 bg-white p-4 shadow-xl max-w-[150px] text-xs leading-relaxed text-gray-500 rounded-sm hidden md:block">
-              "Frontend isn't just about building websites, it's engineering trust"
+            <div className="absolute -bottom-2 -left-6 bg-white p-4 shadow-xl max-w-[170px] text-xs leading-relaxed text-gray-500 rounded-sm hidden md:block">
+              "Full stack engineering is about connecting robust architecture with seamless user experiences"
             </div>
           </motion.div>
         </div>

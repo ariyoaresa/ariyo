@@ -32,7 +32,7 @@ const About = () => {
                     <div className="mb-12">
                         <h2 className="text-5xl font-serif mb-8 text-black">Passion <span className="italic text-gray-400">&</span> Precision</h2>
                         <p className="text-gray-600 leading-relaxed mb-6">
-                            I specialize in building digital products that balance aesthetic appeal with technical robustness. With over 5 years of experience, I've helped transformative brands tell their story through the web.
+                            I specialize in engineering end-to-end digital solutions that unite high-performance backends, clean API architecture, and engaging user interfaces. With over 5 years of experience, I build resilient web platforms that scale seamlessly.
                         </p>
                     </div>
 

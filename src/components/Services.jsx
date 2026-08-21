@@ -1,9 +1,9 @@
 
 const services = [
-    { title: "UI Implementation", desc: "Pixel-perfect implementation of user interfaces.", link: "#" },
-    { title: "Search Engine Optimisation", desc: "Build low-cost organic visibility and ranking without shortcuts.", link: "#" },
-    { title: "API Integration", desc: "Integrating third-party APIs to enhance functionality.", link: "#" },
-    { title: "SaaS Development", desc: "Scalable platforms to help your business grow.", link: "#" },
+    { title: "Full Stack Web Apps", desc: "End-to-end web applications built with modern frameworks, robust state management, and clean architecture.", link: "#" },
+    { title: "Backend & API Architecture", desc: "Scalable RESTful & GraphQL APIs, secure authentication, database modeling (SQL/NoSQL), and integrations.", link: "#" },
+    { title: "Frontend Engineering", desc: "High-performance, responsive interfaces with micro-interactions, accessibility, and modern UI design systems.", link: "#" },
+    { title: "SaaS & Cloud Deployment", desc: "Cloud infrastructure setup, CI/CD automation, serverless solutions, and performance optimization.", link: "#" },
 ];
 
 const Services = () => {
@@ -13,9 +13,9 @@ const Services = () => {
                 <div className="grid lg:grid-cols-3 gap-8">
                     <div className="lg:col-span-1 pr-12">
                         <span className="px-3 py-1 border border-gray-300 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 inline-block">Services</span>
-                        <h2 className="text-4xl font-serif leading-tight mb-6">A Comprehensive look at what I offer.</h2>
+                        <h2 className="text-4xl font-serif leading-tight mb-6">Full-Stack Solutions Tailored for Scale.</h2>
                         <p className="text-gray-500 mb-8">
-                            A comprehensive look at my services and how I deliver them.
+                            From robust database foundations to polished, responsive interfaces, explore how I build complete web solutions.
                         </p>
                         <a href="#contact" className="px-8 py-3 bg-black text-white rounded-full text-sm font-bold hover:bg-gray-800 transition-colors inline-block">
                             See All

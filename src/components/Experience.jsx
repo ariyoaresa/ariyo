@@ -1,8 +1,8 @@
 
 const experiences = [
-    { role: "Freelancer", company: "Ariz Tech", date: "2022 - 2024" },
-    { role: "Frontend Developer", company: "RentEase NG", date: "2025 - Now" },
-    { role: "Frontend Enginner", company: "Mikaelson Initiative Org", date: "2025 - Now" },
+    { role: "Full Stack Developer", company: "RentEase NG", date: "2025 - Present" },
+    { role: "Lead Full Stack Engineer", company: "Mikaelson Initiative Org", date: "2025 - Present" },
+    { role: "Software Engineer / Freelancer", company: "Ariz Tech", date: "2022 - 2024" },
 ];
 
 const Experience = () => {
@@ -23,7 +23,7 @@ const Experience = () => {
                             </div>
                             <div className="md:w-1/3 hidden md:block">
                                 <p className="text-gray-400 text-xs max-w-xs opacity-0 group-hover:opacity-100 transition-opacity">
-                                    Involved in the development and maintenance of web applications, ensuring a seamless user experience and efficient backend operations.
+                                    Architecting and delivering full-stack web applications, designing RESTful APIs, optimizing database operations, and creating responsive user experiences.
                                 </p>
                             </div>
                             <div className="md:w-1/3 text-right mt-4 md:mt-0">

@@ -9,17 +9,17 @@ const projects = [
     },
     {
         title: "Educational Platform",
-        category: "Frontend Development & API integration",
+        category: "Full Stack & API Integration",
         url: "https://nuesapedia.vercel.app"
     },
     {
         title: "Cultural & Language Platform",
-        category: "Full Stack Development",
+        category: "Full Stack Web Application",
         url: "https://awalalasa.app"
     },
     {
-        title: "NGO Website",
-        category: "Frontend Engineering",
+        title: "NGO Web Platform",
+        category: "Full Stack Engineering",
         url: "https://mikaelsoninitiative.org"
     },
 ];
@@ -30,8 +30,8 @@ const Projects = () => {
             <div className="container mx-auto px-6">
                 <div className="flex justify-between items-end mb-16">
                     <div>
-                        <span className="px-3 py-1 border border-gray-300 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 inline-block">Development Work</span>
-                        <h2 className="text-4xl font-serif max-w-lg leading-tight">Explore my portfolio of robust web solutions.</h2>
+                        <span className="px-3 py-1 border border-gray-300 rounded-full text-xs font-semibold uppercase tracking-wider mb-6 inline-block">Full Stack Work</span>
+                        <h2 className="text-4xl font-serif max-w-lg leading-tight">Explore my portfolio of full stack web applications.</h2>
                     </div>
                     <a href="https://github.com/ariyoaresa" className="hidden md:inline-block text-sm font-bold border-b border-black pb-1 hover:text-gray-600 transition-colors">View on GitHub</a>
                 </div>

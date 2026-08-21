@@ -17,7 +17,7 @@ const Blog = () => {
                         Thoughts & Insights
                     </h1>
                     <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                        Articles about web development, productivity, and building cool things on the internet.
+                        Articles about full stack development, system architecture, API design, and modern web engineering.
                     </p>
                 </div>
             </section>
